@@ -8,7 +8,9 @@ function index() {
                 <button className="dsmovie-pagination-button" disabled={true} >
                     <img src={arrow} alt="Voltar pagina" />
                 </button>
+
                 <p>{`${1} de ${3}`}</p>
+                
                 <button className="dsmovie-pagination-button" disabled={false} >
                     <img className="dsmovie-flip-horizontal" src={arrow} alt="Avancar pagina" />
                 </button>
