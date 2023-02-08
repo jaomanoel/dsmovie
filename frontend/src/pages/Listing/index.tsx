@@ -1,11 +1,11 @@
-import React from 'react'
+import Pagination from "../../components/Pagination";
 
 function index() {
-  return (
-    <div>
-        Listagem
-    </div>
-  )
+    return (
+        <div>
+            <Pagination />
+        </div>
+    )
 }
 
 export default index;
